@@ -5,4 +5,12 @@ def main():
     except KeyboardInterrupt:
         print("So long, and thanks for all the fish")
 
-main()    
+
+def maths(a, b): 
+    divs = a / b
+    return print("THIS IS THE NEW VALUE ", int(divs))
+
+
+maths(8,2)
+
+
